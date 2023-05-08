@@ -1,3 +1,45 @@
 body {
-  background-color: aqua;
+  overflow: hidden;
+}
+
+section {
+  position: absolute;
+  height: 71vh;
+  top: 85px;
+  width: 100%;
+}
+
+iframe {
+  width: 430px;
+  height: 380px;
+}
+
+#date-time {
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: absolute;
+  top: 60px;
+  right: 130px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.list-page,
+.add-page,
+.contact-page {
+  color: #fff;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
 }
